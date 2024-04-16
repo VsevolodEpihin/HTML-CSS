@@ -733,6 +733,7 @@ p[data-value='45']{       /*19 0/1/1 */
   margin: 10px;
   border: 3px solid black;
   border-radius: 20px;
+  align-content: center;
   grid-area: container__navigation;
 }
 
@@ -760,6 +761,7 @@ p[data-value='45']{       /*19 0/1/1 */
   padding: 10px 0;
   border: 3px solid black;
   border-radius: 20px;
+  align-content: center;
   grid-area: container__aside;
 }
 
