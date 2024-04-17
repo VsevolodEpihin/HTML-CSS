@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/adaptive.css">
   </head>
   <body>
 
@@ -67,7 +68,7 @@
         </div>
       </div>
       <div>   
-        <div class="two-table-section-3">
+        <div class="two-table-section-3 table-container">
           <table cellspacing='0'>
             <tr>
               <td colspan="3">ячейка 1</td>
@@ -84,7 +85,7 @@
           </table>
         </div>
       
-        <div class="three-table-section-3">
+        <div class="three-table-section-3 table-container">
           <table cellspacing='0'>
             <tr>
               <th colspan="2" rowspan="2">Номер</th>
@@ -137,23 +138,23 @@
 
    <section class="section-4">
       <h2>Section #4</h2>
-      <div class="section-4-box">
+      <div class="section-4-box color-box">
         But ere she from the church-door stepped She smiled and told us why: 
         'It was a wicked woman's curse,' Quoth she, 'and what care I?' 
         She smiled, and smiled, and passed it off Ere from the door she stept—
       </div>
       <div class="section-4-text">
-        <p>But ere she from the church-door step</p>
+        <p class="color-box">But ere she from the church-door step</p>
       </div>
       <div class="section-4-title">
-        <div>
+        <div class="color-box">
           But ere she from the church-door step
           She smilde and told us why: 'It was a wicked woman's curse
           Quoth she, 'and what care |?'
           She smiled, and smiled, and passed if of Ere from the door she stept--
         </div>
       </div>
-      <div class="section-4-box2">
+      <div class="section-4-box2 color-box">
         But ere she from the church-door step
         She smilde and told us why: 'It was a wicked woman's curse
         Quoth she, 'and what care |?'
@@ -163,14 +164,14 @@
 
    <section class="section-5">
       <h2>Section #5</h2>
-      <p></p>
-      <div></div>
-      <span></span>
+      <p>p</p>
+      <div>box1</div>
+      <span>span</span>
       <input value="Это input">
-      <h3></h3>
-      <button></button>
-      <section></section>
-      <section></section>
+      <h3>h3</h3>
+      <button>button</button>
+      <section>section 1</section>
+      <section>section 2</section>
    </section>
 
    <section class="section-6">
@@ -259,187 +260,217 @@
    </section>
 
    <section class="section-8">
-    <h2>Section #8</h2>
-    <div class="container-section-8">
-      <div class="box-1"></div>
-      <div class="box-2"></div>
-    </div>
+      <h2>Section #8</h2>
+      <div class="container-section-8">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+      </div>
    </section>
 
    <section class="section-9">
-    <h2>Section #9</h2>
-    <div class="section-box1 active">
-      <div class="orange-box1"></div>
-      <div class="orange-box2"></div>
-      <div class="orange-box3"></div>
-    </div>
-    <div class="section-box2 active">
-      <div class="orange-box1"></div>
-      <div class="orange-box2"></div>
-      <div class="orange-box3"></div>
-    </div>
-    <div class="section-box3 active">
-      <div class="orange-box1"></div>
-      <div class="orange-box2"></div>
-      <div class="orange-box3"></div>
-    </div>
-    <div class="section-box4 active">
-      <div class="orange-box1"></div>
-      <div class="orange-box2"></div>
-      <div class="orange-box3"></div>
-    </div>
-    <div class="section-box5 active">
-      <div class="orange-box1"></div>
-      <div class="orange-box2"></div>
-      <div class="orange-box3"></div>
-    </div>
-    <div class="section-box6 active">
-      <div class="orange-box1"></div>
-      <div class="orange-box2"></div>
-      <div class="orange-box3"></div>
-    </div>
-    <div class="section-box-container">
-      <div class="container-1">
-        <div class="box90"></div>
-        <div class="box91"></div>
-        <div class="box92"></div>
-        <div class="box93"></div>
+      <h2>Section #9</h2>
+      <div class="section-box1 active">
+        <div class="orange-box1"></div>
+        <div class="orange-box2"></div>
+        <div class="orange-box3"></div>
       </div>
-      <div class="container-2">
-        <div class="box90"></div>
-        <div class="box91"></div>
-        <div class="box92"></div>
-        <div class="box93"></div>
+      <div class="section-box2 active">
+        <div class="orange-box1"></div>
+        <div class="orange-box2"></div>
+        <div class="orange-box3"></div>
       </div>
-      <div class="container-3">
-        <div class="box90"></div>
-        <div class="box91"></div>
-        <div class="box92"></div>
-        <div class="box93"></div>
+      <div class="section-box3 active">
+        <div class="orange-box1"></div>
+        <div class="orange-box2"></div>
+        <div class="orange-box3"></div>
       </div>
-      <div class="container-4">
-        <div class="my-flex-box"></div>
-        <div class="my-flex-box"></div>
-        <div class="my-flex-box"></div>
-        <div class="my-flex-box"></div>
+      <div class="section-box4 active">
+        <div class="orange-box1"></div>
+        <div class="orange-box2"></div>
+        <div class="orange-box3"></div>
       </div>
-    </div>
-    <div class="section-box-11">
-      <div class="box90 is-active">text text</div>
-      <div class="box91 is-active">text text</div>
-      <div class="box92 is-active">text text</div>
-      <div class="box93 is-active">text text</div>
-    </div>
-   </section>
-   
+      <div class="section-box5 active">
+        <div class="orange-box1"></div>
+        <div class="orange-box2"></div>
+        <div class="orange-box3"></div>
+      </div>
+      <div class="section-box6 active">
+        <div class="orange-box1"></div>
+        <div class="orange-box2"></div>
+        <div class="orange-box3"></div>
+      </div>
+      <div class="section-box-container">
+        <div class="container-1 wd">
+          <div class="box90 is-active"></div>
+          <div class="box91 is-active"></div>
+          <div class="box92 is-active"></div>
+          <div class="box93 is-active"></div>
+        </div>
+        <div class="container-2 wd">
+          <div class="box90 is-active"></div>
+          <div class="box91 is-active"></div>
+          <div class="box92 is-active"></div>
+          <div class="box93 is-active"></div>
+        </div>
+        <div class="container-3 wd">
+          <div class="box90 is-active"></div>
+          <div class="box91 is-active"></div>
+          <div class="box92 is-active"></div>
+          <div class="box93 is-active"></div>
+        </div>
+        <div class="container-4 wd">
+          <div class="my-flex-box"></div>
+          <div class="my-flex-box"></div>
+          <div class="my-flex-box"></div>
+          <div class="my-flex-box"></div>
+        </div>
+      </div>
+      <div class="section-box-11">
+        <div class="box90 is-active">text text</div>
+        <div class="box91 is-active">text text</div>
+        <div class="box92 is-active">text text</div>
+        <div class="box93 is-active">text text</div>
+      </div>
+    </section>
+
    <section class="section-10">
-    <h2 class="section-10__title">#Section-10</h2>
-    <header class="section-10__header header">
-      <h2 class="header__title">Шапка страницы</h2>
-    </header>
+      <h2 class="section-10__title">#Section-10</h2>
+      <header class="section-10__header header">
+        <h2 class="header__title">Шапка страницы</h2>
+      </header>
   
-   <section class="section-10__wrapper">
-    <main class="section-10__wrapper__main main">
-      <h2 class="main__title">Основная часть</h2>
-      <div class="main__container">
-        <div class="main__container__text">
-          Еще 1
+      <section class="section-10__wrapper">
+        <main class="section-10__wrapper__main main">
+        <h2 class="main__title">Основная часть</h2>
+        <div class="main__container">
+          <div class="main__container__text">
+            Еще 1
+          </div>
+          <div class="main__container__text">
+            Еще 1
+          </div>
         </div>
-        <div class="main__container__text">
-          Еще 1
-        </div>
+        <div class="main__options">Еще 3</div>
+        </main>
+        <aside class="section-10__wrapper__aside aside">
+          <h2 class="aside__title">Боковая область</h2>
+        </aside>
+      </section>
+      <footer class="section-10__footer footer">
+        <div class="footer__container">Секция футера 1</div>
+        <div class="footer__container">Секция футера 2</div>
+        <div class="footer__container">Секция футера 3</div>
+        <div class="footer__container">Секция футера 4</div>
+      </footer>
+    </section>
+
+    <section class="section-11">
+      <h2 class="section-11__title">Section #11</h2>
+      <div class="section-11__parent1 parent1">
+        <div class="parent1__child1"></div>
       </div>
-      <div class="main__options">Еще 3</div>
-    </main>
-    <aside class="section-10__wrapper__aside aside">
-      <h2 class="aside__title">Боковая область</h2>
-    </aside>
-   </section>
-  
-   <footer class="section-10__footer footer">
-    <div class="footer__container">Секция футера 1</div>
-    <div class="footer__container">Секция футера 2</div>
-    <div class="footer__container">Секция футера 3</div>
-    <div class="footer__container">Секция футера 4</div>
-   </footer>
-  </section>
+      <div class="section-11__parent2 parent2">
+        <div class="parent2__child2"></div>
+      </div>
+    </section>
 
-  <section class="section-11">
-    <h2 class="section-11__title">Section #11</h2>
-    <div class="section-11__parent1 parent1">
-      <div class="parent1__child1"></div>
-    </div>
-    <div class="section-11__parent2 parent2">
-      <div class="parent2__child2"></div>
-    </div>
-  </section>
+    <section class="section-12">
+      <h2 class="section-12__title">Section #12</h2>
+      <div class="section-12__container"></div>
+    </section>
+    <section class="section-13">
+      <h2 class="section-13__title">#Section-13</h2>
+      <div class="section-13__container-start">Start box</div>
+      <div class="section-13__container-end">End box</div>
+    </section>
 
-  <section class="section-12">
-    <h2 class="section-12__title">Section #12</h2>
-    <div class="section-12__container"></div>
-  </section>
-  <section class="section-13">
-    <h2 class="section-13__title">#Section-13</h2>
-    <div class="section-13__container-start">Start box</div>
-    <div class="section-13__container-end">End box</div>
-  </section>
+    <section class="section-14">
+      <h2 class="section-14__title">#section-14</h2>
+      <div class="section-14__container container">
+        <div class="container__navigation container__navigation_bg">Navigation</div>
+        <div class="container__header container__navigation_bg">Header</div>
+        <div class="container__aside container__navigation_bg">Aside</div>
+        <div class="container__main container__navigation_bg">Main</div>
+        <div class="container__section container__navigation_bg">Section</div>
+        <div class="container__footer container__navigation_bg">Footer</div>
+      </div>
+    </section>
 
- <section class="section-14">
-    <h2 class="section-14__title">#section-14</h2>
-    <div class="section-14__container container">
-      <div class="container__navigation">Navigation</div>
-      <div class="container__header">Header</div>
-      <div class="container__aside">Aside</div>
-      <div class="container__main">Main</div>
-      <div class="container__section">Section</div>
-      <div class="container__footer">Footer</div>
-    </div>
- </section>
+    <section class="section-14-2">
+      <div class="section-14-2__container container">
+        <div class="container__navigation_inline">Navigation</div>
+        <div class="container__header_inline">Header</div>
+        <div class="container__aside_inline">Aside</div>
+        <div class="container__main_inline">Main</div>
+        <div class="container__section_inline">Section</div>
+        <div class="container__footer_inline">Footer</div>
+      </div>
+    </section>
 
- <section class="section-14-2">
-    <div class="section-14-2__container container">
-      <div class="container__navigation_inline">Navigation</div>
-      <div class="container__header_inline">Header</div>
-      <div class="container__aside_inline">Aside</div>
-      <div class="container__main_inline">Main</div>
-      <div class="container__section_inline">Section</div>
-      <div class="container__footer_inline">Footer</div>
-    </div>
- </section>
-
- <h2>#Section-15</h2>
- <section class="section-15__container container">
-    <div class="container__item1">
-      <div class="container__item1__child">child_1</div>
-    </div>
-    <div class="container__item2">
-      <div class="container__item2__child">child_2</div>
-    </div>
-    <div class="container__item3">
-      <div class="container__item3__child">child_3</div>
-    </div>
-    <div class="container__item4">
-      <div class="container__item4__child">child_4</div>
-    </div>
-    <div class="container__item5">
-     <div class="container__item5__child">child_5</div>
-    </div>
-    <div class="container__item6">
-      <div class="container__item6__child">child_6</div>
-    </div>
-    <div class="container__item7">
-      <div class="container__item7__child">child_7</div>
-    </div>
-    <div class="container__item8">
-      <div class="container__item8__child">child_8</div>
-    </div>
-    <div class="container__item9">
-      <div class="container__item9__child">child_9</div>
-    </div>
-  </section>
-
- <section class="section-15">
+    <h2>#Section-15</h2>
     <section class="section-15__container container">
+      <div class="container__item1">
+        <div class="container__item1__child">child_1</div>
+      </div>
+      <div class="container__item2">
+        <div class="container__item2__child">child_2</div>
+      </div>
+      <div class="container__item3">
+        <div class="container__item3__child">child_3</div>
+      </div>
+      <div class="container__item4">
+        <div class="container__item4__child">child_4</div>
+      </div>
+      <div class="container__item5">
+        <div class="container__item5__child">child_5</div>
+      </div>
+      <div class="container__item6">
+        <div class="container__item6__child">child_6</div>
+      </div>
+      <div class="container__item7">
+       <div class="container__item7__child">child_7</div>
+      </div>
+      <div class="container__item8">
+        <div class="container__item8__child">child_8</div>
+      </div>
+      <div class="container__item9">
+        <div class="container__item9__child">child_9</div>
+      </div>
+    </section>
+
+    <section class="section-15">
+      <section class="section-15__container container">
+        <div class="container__item1">
+          <div class="container__item1__child">child_1</div>
+        </div>
+        <div class="container__item2">
+          <div class="container__item2__child">child_2</div>
+        </div>
+        <div class="container__item3">
+          <div class="container__item3__child">child_3</div>
+        </div>
+        <div class="container__item4">
+         <div class="container__item4__child">child_4</div>
+        </div>
+        <div class="container__item5">
+          <div class="container__item5__child">child_5</div>
+        </div>
+        <div class="container__item6">
+         <div class="container__item6__child">child_6</div>
+        </div>
+        <div class="container__item7">
+         <div class="container__item7__child">child_7</div>
+        </div>
+        <div class="container__item8">
+         <div class="container__item1__child">child_8</div>
+        </div>
+        <div class="container__item9">
+          <div class="container__item9__child">child_9</div>
+        </div>
+      </section>
+    </section>
+ 
+    <section class="section-15-3__container container">
       <div class="container__item1">
         <div class="container__item1__child">child_1</div>
       </div>
@@ -462,78 +493,47 @@
         <div class="container__item7__child">child_7</div>
       </div>
       <div class="container__item8">
-       <div class="container__item1__child">child_8</div>
+       <div class="container__item8__child">child_8</div>
       </div>
       <div class="container__item9">
-        <div class="container__item9__child">child_9</div>
+        <div class="container__item9__child container__item9__child_active">child_9</div>
       </div>
     </section>
- </section>
- 
- <section class="section-15-3__container container">
-    <div class="container__item1">
-      <div class="container__item1__child">child_1</div>
-    </div>
-    <div class="container__item2">
-      <div class="container__item2__child">child_2</div>
-    </div>
-    <div class="container__item3">
-      <div class="container__item3__child">child_3</div>
-    </div>
-    <div class="container__item4">
-      <div class="container__item4__child">child_4</div>
-    </div>
-    <div class="container__item5">
-      <div class="container__item5__child">child_5</div>
-    </div>
-    <div class="container__item6">
-      <div class="container__item6__child">child_6</div>
-    </div>
-    <div class="container__item7">
-      <div class="container__item7__child">child_7</div>
-    </div>
-    <div class="container__item8">
-      <div class="container__item8__child">child_8</div>
-    </div>
-    <div class="container__item9">
-      <div class="container__item9__child container__item9__child_active">child_9</div>
-    </div>
- </section>
 
- <section class="section-15-flex__container container">
-  <div class="container_item">child_1</div>
-  <div class="container_item">child_2</div>
-  <div class="container_item">child_3</div>
-  <div class="container_item">child_4</div>
-  <div class="container_item">child_5</div>
-  <div class="container_item">child_6</div>
-  <div class="container_item">child_7</div>
-  <div class="container_item">child_8</div>
-  <div class="container_item">child_9</div>
- </section>
+    <section class="section-15-flex__container container-box">
+      <div class="container-box__item">child_1</div>
+      <div class="container-box__item">child_2</div>
+      <div class="container-box__item">child_3</div>
+      <div class="container-box__item">child_4</div>
+      <div class="container-box__item">child_5</div>
+      <div class="container-box__item">child_6</div>
+      <div class="container-box__item">child_7</div>
+      <div class="container-box__item">child_8</div>
+      <div class="container-box__item">child_9</div>
+    </section>
 
- <section class="section-15-2-flex__container container">
-  <div class="container_item">child_1</div>
-  <div class="container_item">child_2</div>
-  <div class="container_item">child_3</div>
-  <div class="container_item">child_4</div>
-  <div class="container_item">child_5</div>
-  <div class="container_item">child_6</div>
-  <div class="container_item">child_7</div>
-  <div class="container_item">child_8</div>
-  <div class="container_item">child_9</div>
- </section>
+    <section class="section-15-2-flex__container container-box">
+      <div class="container-box__item">child_1</div>
+      <div class="container-box__item">child_2</div>
+      <div class="container-box__item">child_3</div>
+      <div class="container-box__item">child_4</div>
+      <div class="container-box__item">child_5</div>
+      <div class="container-box__item">child_6</div>
+      <div class="container-box__item">child_7</div>
+      <div class="container-box__item">child_8</div>
+      <div class="container-box__item">child_9</div>
+    </section>
 
- <section class="section-15-3-flex__container container">
-  <div class="container_item">child_1</div>
-  <div class="container_item">child_2</div>
-  <div class="container_item">child_3</div>
-  <div class="container_item">child_4</div>
-  <div class="container_item">child_5</div>
-  <div class="container_item">child_6</div>
-  <div class="container_item">child_7</div>
-  <div class="container_item">child_8</div>
-  <div class="container_item container__item_position">child_9</div>
- </section>
-</body>
+    <section class="section-15-3-flex__container container-box">
+      <div class="container-box__item">child_1</div>
+      <div class="container-box__item">child_2</div>
+      <div class="container-box__item">child_3</div>
+      <div class="container-box__item">child_4</div>
+      <div class="container-box__item">child_5</div>
+      <div class="container-box__item">child_6</div>
+      <div class="container-box__item">child_7</div>
+      <div class="container-box__item">child_8</div>
+      <div class="container-box__item container-box__item_position">child_9</div>
+    </section>
+  </body>
 </html>
