@@ -1,8 +1,10 @@
 
 @media (max-width:3100px) {
   
-  .container-box__item{
+  .container-box__item {
     padding: 90px;
+    background-color: red;
+    border: 3px solid black;
   }
 }
 
@@ -13,21 +15,21 @@
   }
 }
 
-@media (max-width:2100px){
+@media (max-width:2100px) {
 
-  .section-12__container::after{
+  .section-12__container::after {
     content: url('../img/round.png');
     position: absolute;
     right: -100px;
     top: -80px;
   }
 
-  .container-box{
+  .wrapper__container {
     width: 40%;
     height: auto;
   }
 
-  .container-box__item{
+  .container-box__item {
     margin: 5px;
     padding: 80px;
     background-color: red;
@@ -37,12 +39,12 @@
 
 @media (max-width:1750px){
 
-  .container-box{
+  .wrapper__container {
     width: 35%;
     height: 400px;
   }
 
-  .container-box__item{
+  .container-box__item {
     margin: 5px;
     padding: 50px;
     background-color: red;
@@ -50,20 +52,20 @@
   }
 }
 
-@media (max-width:1560px){
+@media (max-width:1560px) {
 
-  .container-box{
+  .wrapper__container {
     width: 40%;
   }
 
-  .container-box__item{
+  .container-box__item {
     padding: 50px;
   }
 }
 
-@media (max-width:1450px){
+@media (max-width:1450px) {
 
-  .section-12__container::after{
+  .section-12__container::after {
     content: url('../img/round.png');
     position: absolute;
     right: -150px;
@@ -73,79 +75,79 @@
 
 }
 
-@media (max-width:1300px){
+@media (max-width:1300px) {
 
-  .container-box__item{
+  .container-box__item {
     margin: 5px;
     padding: 35px;
   }
 
 }
 
-@media (max-width:1100px){
+@media (max-width:1100px) {
   
-  .container-box__item{
+  .container-box__item {
     margin: 5px;
     padding: 25px;
   }
 
-  .active div{
+  .active div {
     margin: 10px 10px;
   }
 
-  .orange-box1{
+  .orange-box1 {
     padding: 10px 60px;
   }
 
-  .orange-box2{
+  .orange-box2 {
     padding: 10px 30px;
   }
 
-  .orange-box3{
+  .orange-box3 {
     padding: 10px 60px;
   }
 
-  .wd{
+  .wd {
     width: 200px;
     margin: 5px;
   }
   
-  .wd:not(:first-child){
+  .wd:not(:first-child) {
     height: 200px;
   }
 
-  .wd div{
+  .wd div {
     width: 25px;
   }
 
-  .wd:not(:last-child) div{
+  .wd:not(:last-child) div {
     margin: 5px;
   }
 
-  .child-grid{
+  .child-grid {
     padding: 5px;
   }
 
-  .section-14__container div{
+  .section-14__container div {
     font-size: 24px;
   }
 
-  .section-14-2__container div{
+  .section-14-2__container div {
     font-size: 24px;
   }
 
-  .my-flex-box{
+  .my-flex-box {
     padding: 10px;
   }
 
-  .section-12__container::after{
+  .section-12__container::after {
     content: url('../img/round.png');
     position: absolute;
     right: -140px;
     top: -80px;
   }
 
-  .section-12__container::before{
+  .section-12__container::before {
     content: '';
     position: absolute;
     top: 200px;
@@ -155,66 +157,70 @@
     background: url('../img/round.png') no-repeat;
   }
 
-  .section-15__container div>div{
+  .section-15__container div > div {
     padding: 30px;
   }
 
-  .section-15-3__container div>div{
+  .section-15-3__container div > div {
     padding: 30px;
   }
 
 }
 
-@media (max-width:900px){
-  .container-box__item{
+@media (max-width:900px) {
+  .container-box__item {
     margin: 5px;
     padding: 15px;
   }
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
   
-  .container-box__item{
+  .container-box__item {
     margin: 5px;
     padding: 10px;
   }
 
-  .section-15__container{
+  .section-15__container {
     height: 500px;
   }
 
-  .section-15-3__container{
+  .section-15-3__container {
     height: 500px;
   }
 
-  .section-15__container div>div{
+  .section-15__container div>div {
     padding: 20px;
   }
 
-  .section-15-3__container div>div{
+  .section-15-3__container div > div {
     padding: 20px;
   }
 
-  .active div{
+  .active div {
     margin: 20px 10px;
   }
 
-  .orange-box1{
+  .orange-box1 {
     padding: 10px 40px;
   }
 
-  .orange-box2{
+  .orange-box2 {
     padding: 10px 30px;
   }
 
-  .orange-box3{
+  .orange-box3 {
     padding: 10px 50px;
   }
 
-  .section-12__container::after{
+  .section-12__container::after {
     content: url('../img/round.png');
     position: absolute;
     right: 0px;
     top: -80px;
+  }
+
+  .section-box-11 div {
+    padding:  10px;
   }
 }
