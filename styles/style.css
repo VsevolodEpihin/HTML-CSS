@@ -535,21 +535,21 @@ p[data-value='45'] {       /*19 0/0/1/1 */
   display: flex;
 }
 
-.main {
+.wrapper-main {
   flex-grow: 1;
   background-color: rgb(217, 217, 105);
 }
 
-.main__title {
+.wrapper-main__title {
   margin:0;
 }
 
-.main__container {
+.wrapper-main__container {
   display: flex;
   justify-content: space-between;
 }
 
-.main__container__text {
+.container__text {
   width: 50%;
   margin: 10px;
   padding: 10px 30px;
@@ -557,18 +557,18 @@ p[data-value='45'] {       /*19 0/0/1/1 */
   background-color: rgb(251, 251, 55);
 }
 
-.main__options {
+.wrapper-main__options {
   margin: 0 10px 10px 10px;
   text-align: center;
   padding: 10px 0px;
   background-color: rgb(251, 251, 55);
 }
 
-.aside {
+.wrapper-aside {
   background-color: rgb(126, 228, 126);
 }
 
-.aside__title {
+.wrapper-aside__title {
   margin: 0;
 }
 
