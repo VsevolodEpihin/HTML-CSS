@@ -102,7 +102,6 @@ body section{
   white-space: pre;
 }
 
-
 .section-4-box2{
   white-space: break-spaces;
 }
@@ -356,6 +355,7 @@ p[data-value='45']{       /*19 0/0/1/1 */
 }
 
 /*--------------------------------section-8----------------------------*/
+
 .container-section-8 div{
   margin: 30px; 
   padding: 20px; 
@@ -364,6 +364,7 @@ p[data-value='45']{       /*19 0/0/1/1 */
   background-color: pink; 
   border: 5px solid black;
 }
+
 .box-1{
   box-sizing: content-box;
 }
@@ -618,7 +619,6 @@ p[data-value='45']{       /*19 0/0/1/1 */
   border: 3px solid black;
   margin: 20px 0;
   overflow: hidden;
-  
 }
 
 .section-12__container::before{
@@ -839,7 +839,7 @@ p[data-value='45']{       /*19 0/0/1/1 */
 }
 
 .container__item5{
- place-self: center;
+  place-self: center;
   grid-area: container__item5;
 }
 
